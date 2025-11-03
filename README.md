@@ -3,11 +3,13 @@
 A minimal Python helper for **pretty-printing SQL query results from SQLite databases** — right in your terminal.  
 It automatically numbers each query you run and neatly formats the output.
 
-## Author 
-Name - Adam Simonov
-Github - https://github.com/AdamSimon1106
-Email - adam.simnonov@gmail.com
 ---
+
+## Author
+
+Name : Adam Simonov
+Github : https://github.com/AdamSimon1106
+Email : adam.simonov@gmail.com
 
 ##  Features
 - Runs any SQL query on a given SQLite database.
