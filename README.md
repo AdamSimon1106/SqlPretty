@@ -3,9 +3,13 @@
 A minimal Python helper for **pretty-printing SQL query results from SQLite databases** — right in your terminal.  
 It automatically numbers each query you run and neatly formats the output.
 
+## Author 
+Name - Adam Simonov
+Github - https://github.com/AdamSimon1106
+Email - adam.simnonov@gmail.com
 ---
 
-## 🚀 Features
+##  Features
 - Runs any SQL query on a given SQLite database.
 - Prints results in a clean, readable format.
 - Automatically increments “Question” numbers with each call.
@@ -15,7 +19,7 @@ It automatically numbers each query you run and neatly formats the output.
 
 ---
 
-## 🧩 Usage (in Python)
+##  Usage
 
 ```python
 import sqlpretty
