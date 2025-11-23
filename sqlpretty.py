@@ -60,3 +60,25 @@ def query(db_path: str, sql: str, limit: int = 5) -> str:
     ]
 
     return "\n".join(result) + "\n"
+
+
+if __name__ == "__main__":
+
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Run SQLite query and print formatted result"
+    )
+    parser.add_argument("db", help="Path to .db file")
+    parser.add_argument("sql", help="SQL query to run (wrap in quotes)")
+    parser.add_argument(
+        "-n",
+        "--limit",
+        type=int,
+        default=5,
+        help="Preview rows to show (for large results)",
+    )
+    args = parser.parse_args()
+
+    print(query(args.db, args.sql, args.limit))
+
