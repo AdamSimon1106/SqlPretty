@@ -34,7 +34,8 @@ print(sqlpretty.query("world.db", "SELECT * FROM Country"))
 =============================================
 Question: 1
 The query:
-SELECT * FROM City
+SELECT *
+FROM City
 Num of rows: 4079
 The results: 
         ID            Name CountryCode       District  Population
@@ -53,7 +54,8 @@ The results:
 =============================================
 Question: 2
 The query:
-SELECT * FROM Country
+SELECT *
+FROM Country
 Num of rows: 239
 The results: 
     Code                                          Name      Continent                     Region  SurfaceArea  IndepYear  Population  LifeExpectancy       GNP    GNPOld                                     LocalName                                GovernmentForm           HeadOfState  Capital Code2
